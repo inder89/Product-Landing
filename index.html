@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<title>Product Landing Page</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header id="header">
+			<div class="logo">
+				<img align="left" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" id="header-img" alt="company logo">
+			</div>
+
+			<nav id="nav-bar">
+				<ul>
+					<li><a class="nav-link" href="#meditation">Meditation</a></li>
+					<li><a class="nav-link" href="#yoga">Yoga</a></li>
+					<li><a class="nav-link" href="#pricing">Pricing</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<form id="form" action="https://www.freecodecamp.com/email-submit" method="GET">
+			<p>Redefining Yoga</p>
+			<input id="email" name="email" type="email" placeholder="Enter your email address" autofocus size="30">
+			<input type="submit" id="submit" value="GET STARTED">
+		</form>
+
+		<div class="container">
+			<section id="meditation">
+				<div class="grid">
+					
+					<div class="icon">
+						<a href="https://www.headspace.com">
+							<img id="headspace-img" src="./src/220px-Headspace-logo.jpg" height="50" width="50">
+						</a>
+					</div>
+
+					<div class="description">
+						<h2>Learn to meditate and live mindfully</h2>
+						<p>Hundreds of themed sessions on everything from stress and sleep to focus and anxiety</p>
+					</div>
+					
+				</div>
+
+				<div class="grid">
+					
+					<div class="icon">
+						<a href="https://www.calm.com">
+							<img src="./src/calm.png" height="50" width="50">
+						</a>
+					</div>
+						
+					<div class="description">
+						<h2>Meditation Made Easy</h2>
+						<p> Calm is the perfect mindfulness app for beginners, but also includes hundreds of
+							programs for intermediate and advanced users.</p>
+					</div>
+						
+				</div>
+
+				<div class="grid">
+					<div class="icon">
+						<a href="https://www.smilingmind.com.au/mindfulness">
+							<img src="./src/smilingMind.png" height="50" width="50">
+						</a>
+					</div>
+					
+					<div class="description">
+						<h2>To help every mind thrive</h2>
+						<p>Mindfulness is paying attention to the present moment with openness, curiosity and
+						without judgement.</p>
+					</div>
+						
+				</div>
+
+			</section>
+
+			<p id="yoga" align="center">
+				<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Ok2N3NuXMo0" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</p>
+
+			<div class="pricing-grid" id="pricing">
+				<div class="plan headspace">
+					<h2>headspace</h2>
+					<ul class="features">
+						<li>Monthly plan/Yearly plan</li>
+						<li>Sleep stories everyday</li>
+						<li>&dollar;20/month </li>
+
+					</ul>
+					<a href="https://www.headspace.com">
+						Let's do meditation
+					</a>
+				</div>
+
+				<div class="plan calm">
+					<h2>calm</h2>
+					<ul class="features">
+						<li>Monthly plan/Yearly plan</li>
+						<li>Sleep stories everyday</li>
+						<li>&dollar;15/month </li>
+
+					</ul>
+					<a href="https://calm.com">
+						Let's do meditation
+					</a>
+				</div>
+
+				<div class="plan yogaFree">
+					<h2>Yoga with Adriene</h2>
+					<ul class="features">
+						<li>Monthly plan/Yearly plan</li>
+						<li>New videos every week</li>
+						<li>free</li>
+
+					</ul>
+					<a href="https://yogawithadriene.com">
+						Let's do yoga
+					</a>
+				</div>
+
+			</div>
+
+			<footer>
+				<ul>
+					<li class="info"><a href="#form">Privacy</a><li>
+					<li class="info"><a href="#form">Terms</a></li>
+					<li class="info"><a href="#form">Contact</a></li>
+				</ul>
+				<span><p>&copy; 2018, Yogify</p></span>
+			</footer>
+		</div>
+	</div>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
